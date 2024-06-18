@@ -1,0 +1,24 @@
+diff -up ddcui-0.5.4/src/main/mainwindow.cpp.omv~ ddcui-0.5.4/src/main/mainwindow.cpp
+--- ddcui-0.5.4/src/main/mainwindow.cpp.omv~	2024-06-19 00:12:56.710000248 +0200
++++ ddcui-0.5.4/src/main/mainwindow.cpp	2024-06-19 00:12:59.738034214 +0200
+@@ -15,7 +15,7 @@
+ #include <QtGui/QKeyEvent>
+ #include <QtWidgets/QMessageBox>
+ #include <QtWidgets/QWidget>
+-#include <QtWidgets/QShortcut>     // 5.9
++//#include <QtWidgets/QShortcut>     // 5.9
+ 
+ #include <ddcutil_c_api.h>
+ #include <ddcutil_status_codes.h>
+diff -up ddcui-0.5.4/src/main/mainwindow_ui.h.omv~ ddcui-0.5.4/src/main/mainwindow_ui.h
+--- ddcui-0.5.4/src/main/mainwindow_ui.h.omv~	2024-06-19 00:13:11.190162649 +0200
++++ ddcui-0.5.4/src/main/mainwindow_ui.h	2024-06-19 00:13:17.634234897 +0200
+@@ -9,7 +9,7 @@
+ #include <iostream>
+ 
+ #include <QtGui/QFont>
+-#include <QtWidgets/QAction>
++#include <QAction>
+ #include <QtWidgets/QApplication>
+ #include <QtWidgets/QMainWindow>
+ #include <QtWidgets/QMenuBar>
