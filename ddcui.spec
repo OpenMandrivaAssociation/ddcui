@@ -1,5 +1,5 @@
 Name: ddcui
-Version: 0.5.4
+Version: 0.6.0
 Release: 1
 Source0: https://github.com/rockowitz/ddcui/archive/refs/tags/v%{version}.tar.gz
 Summary: Graphical interface for controlling monitor settings
@@ -16,7 +16,7 @@ BuildSystem: cmake
 BuildOption: -DUSE_QT6:BOOL=ON
 
 %patchlist
-ddcui-0.5.4-compile.patch
+# dropped (no longer applies): ddcui-0.6.0-compile.patch
 
 %description
 Graphical interface for controlling monitor settings
