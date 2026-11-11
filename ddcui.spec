@@ -5,7 +5,7 @@ Source0: https://github.com/rockowitz/ddcui/archive/refs/tags/v%{version}.tar.gz
 Summary: Graphical interface for controlling monitor settings
 URL: https://ddcutil.com/
 License: GPL-2.0
-Group: User interface/Desktops
+Group: User Interface/Desktops
 BuildRequires: cmake(DDCUtil)
 BuildRequires: cmake(Qt6Core)
 BuildRequires: cmake(Qt6Gui)
